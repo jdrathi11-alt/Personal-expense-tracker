@@ -672,160 +672,9 @@ END OF REPORT
 
 ---
 
-## 11. GitHub Upload Steps
 
-### Step 1: Prepare Your Repository
 
-```bash
-# Create a new repository on GitHub:
-# 1. Go to https://github.com/new
-# 2. Repository name: personal-expense-tracker
-# 3. Description: "Personal Expense Tracker with Data Visualization"
-# 4. Make it Public
-# 5. Click "Create repository"
-```
-
-### Step 2: Initialize Git Locally
-
-```bash
-# Open terminal/command prompt in project folder
-cd "Personal Expense Tracker with Data Visualization"
-
-# Initialize git
-git init
-
-# Configure git (replace with your info)
-git config user.name "Your Name"
-git config user.email "your.email@example.com"
-```
-
-### Step 3: Create .gitignore
-
-```bash
-# Create .gitignore file (already included in project)
-# This prevents uploading:
-# - __pycache__ folders
-# - .pyc files
-# - virtual environments
-# - output files
-# - IDE settings
-```
-
-### Step 4: Stage and Commit
-
-```bash
-# Add all files
-git add .
-
-# Check status
-git status
-
-# Create commit
-git commit -m "Initial commit: Personal Expense Tracker with Data Visualization
-
-- Complete expense tracking application
-- Data generation and cleaning modules
-- Category and monthly analysis
-- Data visualization with Matplotlib
-- Report generation system
-- README documentation
-- Requirements.txt for easy setup"
-```
-
-### Step 5: Connect to GitHub
-
-```bash
-# Add remote (replace with your repository URL)
-git remote add origin https://github.com/YOURUSERNAME/personal-expense-tracker.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-### Step 6: Verify Upload
-
-1. Go to your GitHub repository
-2. Check all files are uploaded
-3. Verify README displays correctly
-
----
-
-## 12. Day-by-Day Build Proof
-
-### Day 1: Project Structure
-```
-✓ Created folder structure
-✓ Set up git repository
-✓ Created basic configuration
-```
-
-### Day 2: Data Generation
-```
-✓ Created synthetic data generator
-✓ Generated sample CSV with 365 records
-✓ Added multiple expense categories
-```
-
-### Day 3: Data Pipeline
-```
-✓ Built data loader module
-✓ Implemented CSV reading functionality
-✓ Added data validation
-```
-
-### Day 4: Data Cleaning
-```
-✓ Created cleaning functions
-✓ Implemented duplicate removal
-✓ Added missing value handling
-```
-
-### Day 5: Analysis Module
-```
-✓ Built category-wise analysis
-✓ Created monthly trend analysis
-✓ Added payment method breakdown
-```
-
-### Day 6: Visualization
-```
-✓ Generated pie charts
-✓ Created bar charts
-✓ Added trend line graphs
-```
-
-### Day 7: Reports
-```
-✓ Built summary report generator
-✓ Created detailed report system
-✓ Added CSV export functionality
-```
-
-### Day 8: Integration
-```
-✓ Connected all modules
-✓ Tested end-to-end flow
-✓ Fixed integration issues
-```
-
-### Day 9: Testing
-```
-✓ Comprehensive error handling
-✓ Edge case testing
-✓ Performance optimization
-```
-
-### Day 10: Final Polish
-```
-✓ Complete README documentation
-✓ GitHub-ready structure
-✓ Portfolio presentation ready
-```
-
----
-
-## 13. Sample Outputs & Screenshots
+## 11. Sample Outputs & Screenshots
 
 ### Chart Examples
 
@@ -849,7 +698,7 @@ The application generates these visualization types (all saved as PNG in `charts
 
 ---
 
-## 14. Interview Preparation
+## 12. Interview Preparation
 
 ### Top 10 Interview Questions & Answers
 
@@ -967,12 +816,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername]
-- Email: your.email@example.com
-
----
-
-<p align="center">
-  Made with ❤️ for learning and portfolio building
-</p>
+**Jayesh Rathi** — 3rd Year IT Student, Government College of Engineering, Amravati  
+[LinkedIn](https://www.linkedin.com/in/jayesh-rathi-5ab8973b6) | [Email](mailto:jayeshrathinew@gmail.com)
